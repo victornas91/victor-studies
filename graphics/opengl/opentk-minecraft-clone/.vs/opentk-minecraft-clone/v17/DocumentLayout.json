@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code2\\github\\victor-studies\\graphics\\opengl\\opentk-minecraft-clone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA625B-72EC-46E5-836A-CA0952824291}|opentk-minecraft-clone.csproj|d:\\code2\\github\\victor-studies\\graphics\\opengl\\opentk-minecraft-clone\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA625B-72EC-46E5-836A-CA0952824291}|opentk-minecraft-clone.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BA625B-72EC-46E5-836A-CA0952824291}|opentk-minecraft-clone.csproj|d:\\code2\\github\\victor-studies\\graphics\\opengl\\opentk-minecraft-clone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BA625B-72EC-46E5-836A-CA0952824291}|opentk-minecraft-clone.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\code2\\github\\victor-studies\\graphics\\opengl\\opentk-minecraft-clone\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "D:\\code2\\github\\victor-studies\\graphics\\opengl\\opentk-minecraft-clone\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:09:43.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\code2\\github\\victor-studies\\graphics\\opengl\\opentk-minecraft-clone\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\code2\\github\\victor-studies\\graphics\\opengl\\opentk-minecraft-clone\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:03:41.523Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\bin\Release\net8.0\opentk-minecraft-clone.exe
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\bin\Release\net8.0\opentk-minecraft-clone.deps.json
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\bin\Release\net8.0\opentk-minecraft-clone.runtimeconfig.json
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\bin\Release\net8.0\opentk-minecraft-clone.dll
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\bin\Release\net8.0\opentk-minecraft-clone.pdb
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\obj\Release\net8.0\opentk-minecraft-clone.GeneratedMSBuildEditorConfig.editorconfig
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\obj\Release\net8.0\opentk-minecraft-clone.AssemblyInfoInputs.cache
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\obj\Release\net8.0\opentk-minecraft-clone.AssemblyInfo.cs
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\obj\Release\net8.0\opentk-minecraft-clone.csproj.CoreCompileInputs.cache
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\obj\Release\net8.0\opentk-minecraft-clone.dll
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\obj\Release\net8.0\refint\opentk-minecraft-clone.dll
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\obj\Release\net8.0\opentk-minecraft-clone.pdb
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\obj\Release\net8.0\opentk-minecraft-clone.genruntimeconfig.cache
+D:\code2\games\opentk\minecraft-clone-cs\opentk-minecraft-clone\obj\Release\net8.0\ref\opentk-minecraft-clone.dll
