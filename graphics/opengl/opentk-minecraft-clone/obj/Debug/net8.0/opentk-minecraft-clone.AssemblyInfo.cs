@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("opentk-minecraft-clone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e179a16ddf3d0f50ce70f87531d5c047eb72dcca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88f2961233c9834f9c4d6a42fa91e19a6d7e5c22")]
 [assembly: System.Reflection.AssemblyProductAttribute("opentk-minecraft-clone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("opentk-minecraft-clone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

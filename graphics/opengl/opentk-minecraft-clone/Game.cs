@@ -72,12 +72,41 @@ namespace opentk_minecraft_clone
             GL.BindBuffer(BufferTarget.ArrayBuffer, 0);
 
             GL.BindVertexArray(0);
+
+            shaderProgram = GL.CreateProgram();
+
+            int vertexShader = GL.CreateShader(ShaderType.VertexShader);
+
+            GL.ShaderSource(vertexShader, LoadShaderSource("Default.vert"));
+
+            GL.CompileShader(vertexShader);
+
+            int fragmentShader = GL.CreateShader(ShaderType.FragmentShader);
+
+            GL.ShaderSource(fragmentShader, LoadShaderSource("Default.frag"));
+
+            GL.CompileShader(fragmentShader);
+
+            GL.AttachShader(shaderProgram, vertexShader);
+
+            GL.AttachShader(shaderProgram, fragmentShader);
+
+            GL.LinkProgram(shaderProgram);
+
+            GL.DeleteShader(vertexShader);
+
+            GL.DeleteShader(fragmentShader);
+
         }
 
         protected override void OnUnload()
         
         {
-            base.OnUnload(); 
+            base.OnUnload();
+
+            GL.DeleteVertexArray(vao);
+
+            GL.DeleteProgram(shaderProgram);
         }
 
         protected override void OnRenderFrame(FrameEventArgs args)
@@ -85,6 +114,12 @@ namespace opentk_minecraft_clone
             GL.ClearColor(0.6f, 0.3f, 1f, 1f);
 
             GL.Clear(ClearBufferMask.ColorBufferBit);
+
+            GL.UseProgram(shaderProgram);
+
+            GL.BindVertexArray(vao);
+
+            GL.DrawArrays(PrimitiveType.Triangles, 0, 3);
 
             Context.SwapBuffers();
 
@@ -94,6 +129,25 @@ namespace opentk_minecraft_clone
         protected override void OnUpdateFrame(FrameEventArgs args)
         {
             base.OnUpdateFrame(args);
+        }
+
+        public static string LoadShaderSource(string filePath) 
+        {
+            string shaderSource = "";
+
+            try
+            {
+                using (StreamReader reader = new StreamReader("../../../Shaders/" + filePath))
+                {
+                    shaderSource = reader.ReadToEnd();
+                }
+            }
+            catch (Exception e) 
+            {
+                Console.WriteLine("Failed to load shader source file: " + e.Message);
+            }
+
+            return shaderSource;
         }
     }
 }
